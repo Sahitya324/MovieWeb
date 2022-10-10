@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { DatePicker, Space } from 'antd';
 import Modal from "../Modal/Modal";
 import Loading from "../Loading/Loading";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 import logo from "../../assets/filter.png"
 import './home.css'
 import { getMovieListActions, getSearchMovieActions } from "../../redux/Actions/movieActions";
